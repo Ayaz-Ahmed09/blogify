@@ -7,7 +7,7 @@ function Header(props: HeaderComponent) {
 
       <Nav />
 
-      <div className="container flex flex-col mx-auto my-32 p-10">
+      <div className="container flex flex-col mx-auto my-32 p-10 font-serif">
 
 
         {
@@ -31,8 +31,8 @@ function Header(props: HeaderComponent) {
 }
 
 Header.defaultProps = {
-  tag: "👋 Rajdeep Singh",
-  title: "Start your front-end developer career journey with me."
+  tag: "👋 ",
+  title: "This is Blogging Website To Discuss True Facts WELCOME TO BLOGISTAN"
 };
 
 interface HeaderComponent {
